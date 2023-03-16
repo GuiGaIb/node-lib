@@ -16,6 +16,8 @@
     "url": "https://github.com/GuiGaIb/node-lib/issues"
   },
   "homepage": "https://github.com/GuiGaIb/node-lib#readme",
+  "type": "module",
+  "types": "index.d.ts",
   "devDependencies": {
     "typescript": "^5.0.2"
   }

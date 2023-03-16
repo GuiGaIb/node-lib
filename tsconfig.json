@@ -1,19 +1,17 @@
 {
    "compilerOptions": {
       "incremental": true,
-      "tsBuildInfoFile": "./.tsbuildinfo",
       "target": "ES2022",
       "useDefineForClassFields": true,
       "module": "ES2022",
       "rootDir": "./src",
-      "moduleResolution": "nodenext",
+      "moduleResolution": "node",
       "baseUrl": "./src",
       "paths": {},
       "typeRoots": [],
       "types": [],
       "resolveJsonModule": true,
       "declaration": true,
-      "noEmit": true,
       "importsNotUsedAsValues": "error",
       "isolatedModules": true,
       "allowSyntheticDefaultImports": true,
@@ -22,9 +20,10 @@
       "useUnknownInCatchVariables": true,
       "noUnusedLocals": true,
       "noFallthroughCasesInSwitch": true,
-      "skipLibCheck": true
+      "skipLibCheck": true,
+      "outDir": "./"
    },
-   "include": [],
+   "include": ["./src/index.ts"],
    "exclude": ["node_modules"],
    "references": [
       { "path": "src/console-journal/tsconfig.json" }
