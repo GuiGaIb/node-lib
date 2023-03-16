@@ -20,5 +20,8 @@
   "types": "index.d.ts",
   "devDependencies": {
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "console-journal": "file:src/console-journal"
   }
 }
